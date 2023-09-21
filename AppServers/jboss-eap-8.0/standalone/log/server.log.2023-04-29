@@ -1,0 +1,707 @@
+2023-04-29 00:31:38,286 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final-redhat-00001
+2023-04-29 00:31:43,607 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final-redhat-00001
+2023-04-29 00:31:43,629 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2023-04-29 00:31:43,872 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 8.0.0.Beta (WildFly Core 19.0.0.Beta16-redhat-00004) starting
+2023-04-29 00:31:43,875 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.class.path = C:\Users\Amr\AppServers\jboss-eap-8.0\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Users\Amr\.jdks\openjdk-19.0.1
+	java.io.tmpdir = C:\Users\Amr\AppData\Local\Temp\
+	java.library.path = C:\Users\Amr\.jdks\openjdk-19.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Amr\Desktop\sonar-scanner-4.7.0.2747-windows\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Amr\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Amr\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\MinGW\bin;C:\Users\Amr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;;C:\flutter\bin;C:\Users\Amr\AppData\Local\GitHubDesktop\bin;C:\iverilog\bin;C:\Users\Amr\AppData\Roaming\npm;C:\Users\Amr\Desktop\Uni\YEAR 4\Web Enineering\PHP\AppServ\Apache24\bin;C:\Users\Amr\Desktop\Uni\YEAR 4\Web Enineering\PHP\AppServ\php7;C:\Users\Amr\Desktop\Uni\YEAR 4\Web Enineering\PHP\AppServ\MySQL\bin;C:\Users\Amr\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 19.0.1+10-21
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.1
+	java.version.date = 2022-10-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.1+10-21
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Amr\AppServers\jboss-eap-8.0
+	jboss.host.name = laptop-ol9qp48d
+	jboss.modules.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-ol9qp48d
+	jboss.qualified.host.name = laptop-ol9qp48d
+	jboss.server.base.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone
+	jboss.server.config.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\log
+	jboss.server.name = laptop-ol9qp48d
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Amr\AppServers\jboss-eap-8.0\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1252
+	stdout.encoding = Cp1252
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Amr\.jdks\openjdk-19.0.1\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Amr\AppServers\jboss-eap-8.0\jboss-modules.jar -mp C:\Users\Amr\AppServers\jboss-eap-8.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Amr\AppServers\jboss-eap-8.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.dir = C:\Users\Amr\AppServers\jboss-eap-8.0\bin
+	user.home = C:\Users\Amr
+	user.language = en
+	user.name = Amr
+	user.script = 
+	user.timezone = Africa/Cairo
+	user.variant = 
+2023-04-29 00:31:43,879 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Xlog:gc*:file="C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\log\gc.log":time,uptimemillis:filecount=5,filesize=3M --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\configuration/logging.properties 
+2023-04-29 00:31:47,835 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Beta2-redhat-00001
+2023-04-29 00:31:54,465 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-04-29 00:31:54,666 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-04-29 00:31:54,713 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.7.Final-redhat-00001
+2023-04-29 00:31:54,734 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.7.Final-redhat-00001
+2023-04-29 00:31:54,878 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-04-29 00:31:54,887 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.1.0.Final-redhat-00001
+2023-04-29 00:31:54,928 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-04-29 00:31:54,928 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-04-29 00:31:54,946 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-04-29 00:31:55,004 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-04-29 00:31:55,034 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 66) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-04-29 00:31:55,091 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-04-29 00:31:55,197 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-04-29 00:31:55,294 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 55) WFLYIIOP0001: Activating IIOP Subsystem
+2023-04-29 00:31:55,364 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.3.0.Alpha2-redhat-00001 starting
+2023-04-29 00:31:55,559 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final-redhat-00001)
+2023-04-29 00:31:55,581 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-04-29 00:31:55,775 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2023-04-29 00:31:55,855 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\Amr\AppServers\jboss-eap-8.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-04-29 00:31:55,882 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-04-29 00:31:56,111 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-04-29 00:31:56,603 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-04-29 00:31:56,795 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.25.Final-redhat-00001
+2023-04-29 00:31:57,246 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-04-29 00:32:01,971 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-04-29 00:32:01,971 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-04-29 00:32:01,982 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-04-29 00:32:02,066 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-04-29 00:32:02,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-04-29 00:32:02,098 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-04-29 00:32:02,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-04-29 00:32:02,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-04-29 00:32:02,404 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-04-29 00:32:02,620 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-04-29 00:32:03,435 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2023-04-29 00:32:03,451 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\deployments
+2023-04-29 00:32:03,473 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2023-04-29 00:32:03,774 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final-redhat-00001 (Apache CXF 3.5.2.redhat-00003) 
+2023-04-29 00:32:03,798 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data\activemq\journal,bindingsDirectory=C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\Amr\AppServers\jboss-eap-8.0\standalone\data\activemq\paging)
+2023-04-29 00:32:03,979 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221013: Using NIO Journal
+2023-04-29 00:32:04,251 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2023-04-29 00:32:04,288 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2023-04-29 00:32:04,290 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2023-04-29 00:32:04,448 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221034: Waiting indefinitely to obtain live lock
+2023-04-29 00:32:04,449 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221035: Live Server Obtained live lock
+2023-04-29 00:32:06,553 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2023-04-29 00:32:06,569 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2023-04-29 00:32:06,569 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221003: Deploying ANYCAST queue jms.queue.MsgQueue on address jms.queue.MsgQueue
+2023-04-29 00:32:06,574 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-04-29 00:32:06,574 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-04-29 00:32:06,574 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-04-29 00:32:06,574 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-04-29 00:32:07,111 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221007: Server is now live
+2023-04-29 00:32:07,113 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.21.0.redhat-00031 [default, nodeID=7f67c084-e530-11ed-820e-00216be9a4c1] 
+2023-04-29 00:32:07,165 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 80) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2023-04-29 00:32:07,204 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 83) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2023-04-29 00:32:07,305 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2023-04-29 00:32:07,438 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (MSC service thread 1-4) AMQ151007: Resource adaptor started
+2023-04-29 00:32:07,439 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2023-04-29 00:32:07,443 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2023-04-29 00:32:07,443 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2023-04-29 00:32:07,994 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-04-29 00:32:07,997 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 8.0.0.Beta (WildFly Core 19.0.0.Beta16-redhat-00004) started in 38291ms - Started 328 of 589 services (361 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-04-29 00:32:08,001 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-04-29 00:32:08,002 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-04-29 00:32:08,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "couriersVertical-1.0-SNAPSHOT" (runtime-name: "couriersVertical-1.0-SNAPSHOT.war")
+2023-04-29 00:32:18,289 WARN  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0525: The 'mappedName' in Jakarta Enterprise Beans  annotations is not supported. Value of 'java:/jms/queue/MsgQueue' for Jakarta Enterprise Beans 'queueMessageListener' will be ignored.
+2023-04-29 00:32:19,102 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for mysql
+2023-04-29 00:32:19,569 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for couriersVertical-1.0-SNAPSHOT#mysql
+2023-04-29 00:32:20,319 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment couriersVertical-1.0-SNAPSHOT.war
+2023-04-29 00:32:20,573 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final-redhat-00001
+2023-04-29 00:32:20,966 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'courierService' in deployment unit 'deployment "couriersVertical-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/couriersVertical-1.0-SNAPSHOT/courierService!com.example.couriersvertical.Services.courierService
+	java:app/couriersVertical-1.0-SNAPSHOT/courierService!com.example.couriersvertical.Services.courierService
+	java:module/courierService!com.example.couriersvertical.Services.courierService
+	java:global/couriersVertical-1.0-SNAPSHOT/courierService
+	java:app/couriersVertical-1.0-SNAPSHOT/courierService
+	java:module/courierService
+
+2023-04-29 00:32:20,967 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'Courier' in deployment unit 'deployment "couriersVertical-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/couriersVertical-1.0-SNAPSHOT/Courier!com.example.couriersvertical.Entities.Courier
+	java:app/couriersVertical-1.0-SNAPSHOT/Courier!com.example.couriersvertical.Entities.Courier
+	java:module/Courier!com.example.couriersvertical.Entities.Courier
+	java:global/couriersVertical-1.0-SNAPSHOT/Courier
+	java:app/couriersVertical-1.0-SNAPSHOT/Courier
+	java:module/Courier
+
+2023-04-29 00:32:20,986 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinispan 13.0.10.Final-redhat-00001' 8.3.1.GA
+2023-04-29 00:32:21,403 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-04-29 00:32:21,592 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for couriersVertical-1.0-SNAPSHOT#mysql
+2023-04-29 00:32:21,729 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2023-04-29 00:32:21,884 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 5.0.1 (redhat)
+2023-04-29 00:32:22,530 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = couriersVertical-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2023-04-29 00:32:22,657 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0042: Started message driven bean 'queueMessageListener' with 'activemq-ra.rar' resource adapter
+2023-04-29 00:32:23,169 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'couriersVertical-1.0-SNAPSHOT#mysql'
+2023-04-29 00:32:23,231 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:32:23,441 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate ORM core version 6.1.4.Final-redhat-00001
+2023-04-29 00:32:23,916 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-29 00:32:24,166 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'couriersVertical-1.0-SNAPSHOT#mysql'
+2023-04-29 00:32:24,764 INFO  [SQL dialect] (ServerService Thread Pool -- 78) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-29 00:32:24,844 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
+2023-04-29 00:32:26,160 WARN  [org.hibernate.mapping.RootClass] (ServerService Thread Pool -- 78) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:32:26,160 WARN  [org.hibernate.mapping.RootClass] (ServerService Thread Pool -- 78) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:32:26,924 INFO  [stdout] (ServerService Thread Pool -- 78) Hibernate: 
+2023-04-29 00:32:26,924 INFO  [stdout] (ServerService Thread Pool -- 78)     
+2023-04-29 00:32:26,924 INFO  [stdout] (ServerService Thread Pool -- 78)     create table Couriers (
+2023-04-29 00:32:26,924 INFO  [stdout] (ServerService Thread Pool -- 78)        zone varchar(255) not null,
+2023-04-29 00:32:26,924 INFO  [stdout] (ServerService Thread Pool -- 78)         email varchar(255) not null,
+2023-04-29 00:32:26,925 INFO  [stdout] (ServerService Thread Pool -- 78)         logged boolean not null,
+2023-04-29 00:32:26,925 INFO  [stdout] (ServerService Thread Pool -- 78)         password varchar(255),
+2023-04-29 00:32:26,925 INFO  [stdout] (ServerService Thread Pool -- 78)         username varchar(255),
+2023-04-29 00:32:26,925 INFO  [stdout] (ServerService Thread Pool -- 78)         primary key (email, zone)
+2023-04-29 00:32:26,925 INFO  [stdout] (ServerService Thread Pool -- 78)     )
+2023-04-29 00:32:28,933 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class com.example.couriersvertical.crvApplication
+2023-04-29 00:32:29,177 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Registered web context: '/couriersVertical-1.0-SNAPSHOT' for server 'default-server'
+2023-04-29 00:32:29,522 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "couriersVertical-1.0-SNAPSHOT" (runtime-name : "couriersVertical-1.0-SNAPSHOT.war")
+2023-04-29 00:36:24,476 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:36:24,503 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:36:24,541 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:36:24,543 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:36:24,543 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:36:24,544 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:36:24,544 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:36:24,551 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:36:25,412 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:36:25,438 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:36:25,503 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:25,503 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:25,809 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:36:25,837 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:36:25,851 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:36:25,851 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:36:25,851 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:36:25,853 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:36:25,853 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:36:25,853 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:36:25,955 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:36:25,961 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:36:26,083 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:26,083 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:27,583 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:27,584 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:27,584 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:27,585 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:27,585 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:27,585 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:27,585 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:29,439 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:36:29,459 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:36:29,472 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:36:29,473 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:36:29,473 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:36:29,473 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:36:29,474 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:36:29,474 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:36:29,604 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:36:29,614 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:36:29,664 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:29,664 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:29,755 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:36:29,781 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:36:29,799 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:36:29,800 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:36:29,800 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:36:29,800 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:36:29,801 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:36:29,801 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:36:29,888 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:36:29,897 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:36:29,948 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:29,949 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:36:30,140 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,140 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,143 INFO  [stdout] (default task-1)         distinct c1_0.email,
+2023-04-29 00:36:30,143 INFO  [stdout] (default task-1)         c1_0.zone,
+2023-04-29 00:36:30,144 INFO  [stdout] (default task-1)         c1_0.logged,
+2023-04-29 00:36:30,145 INFO  [stdout] (default task-1)         c1_0.password,
+2023-04-29 00:36:30,145 INFO  [stdout] (default task-1)         c1_0.username 
+2023-04-29 00:36:30,145 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,146 INFO  [stdout] (default task-1)         Couriers c1_0
+2023-04-29 00:36:30,322 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,323 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,323 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,323 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,323 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,324 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,325 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,340 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,340 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,340 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,341 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,342 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,342 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,343 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,351 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,353 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,353 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,353 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,354 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,354 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,354 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,363 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,363 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,363 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,363 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,365 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,365 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,365 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,376 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,376 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,376 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,376 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,376 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,377 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,377 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,386 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,386 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,386 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,387 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,387 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,387 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,388 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,397 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,397 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,397 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,397 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,398 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,398 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,398 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,406 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,406 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,406 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,407 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,407 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,407 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,407 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,415 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,416 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,416 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,416 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,416 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,418 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,418 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,423 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,424 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,426 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,426 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,427 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,428 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,428 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,436 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,436 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,436 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,437 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,437 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,437 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,437 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,446 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,447 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,447 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,448 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,448 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,448 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,448 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,456 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,458 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,459 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,459 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,459 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,461 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,461 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,470 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,471 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,471 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,472 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,472 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,472 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,472 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,484 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,485 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,485 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,485 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,485 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,487 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,487 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,496 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,496 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,497 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,497 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,497 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,497 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,497 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,505 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,505 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,505 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,505 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,506 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,506 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,506 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,516 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,517 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,517 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,517 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,517 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,518 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,518 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,523 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,523 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,524 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,524 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,524 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,524 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,525 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,531 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,533 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,538 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,538 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,538 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,539 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,539 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,539 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,539 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,548 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,548 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,548 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,548 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,549 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,549 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,549 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,556 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,556 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,557 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,557 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,557 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,557 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,558 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,565 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,566 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,571 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,571 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,571 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,571 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,571 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,572 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,572 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,577 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,577 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,577 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,578 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,578 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,578 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,578 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,584 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,585 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,585 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,585 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,585 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,585 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,586 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,591 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,591 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,593 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,593 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,593 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,593 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,593 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,600 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,600 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,600 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,601 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,601 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,601 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,601 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,605 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,606 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,606 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,606 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,606 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,606 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,607 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,613 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,613 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,614 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,614 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,614 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,615 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,615 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,620 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,620 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,621 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,621 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,621 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,622 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,622 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,627 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,628 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,628 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,628 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,628 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,628 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,629 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,636 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,636 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,637 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,637 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,637 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,637 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,638 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,643 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,644 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,644 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,644 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,644 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,644 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,645 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,649 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,650 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,655 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,655 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,655 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,655 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,656 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,656 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,656 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,662 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,663 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:36:30,668 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:36:30,668 INFO  [stdout] (default task-1)     select
+2023-04-29 00:36:30,668 INFO  [stdout] (default task-1)         c1_0.zone 
+2023-04-29 00:36:30,669 INFO  [stdout] (default task-1)     from
+2023-04-29 00:36:30,669 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:36:30,669 INFO  [stdout] (default task-1)     where
+2023-04-29 00:36:30,669 INFO  [stdout] (default task-1)         c1_0.username=?
+2023-04-29 00:37:38,946 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:37:38,976 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:37:38,987 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:37:38,988 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:37:38,988 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:37:38,988 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:37:38,988 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:37:38,988 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:37:39,065 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:37:39,075 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:37:39,123 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:37:39,123 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:37:39,216 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:37:39,241 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:37:39,255 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:37:39,256 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:37:39,256 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:37:39,257 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:37:39,257 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:37:39,257 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:37:39,336 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:37:39,346 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:37:39,425 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:37:39,427 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:37:39,932 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)     select
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         c1_0.email,
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         c1_0.zone,
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         c1_0.logged,
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         c1_0.password,
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         c1_0.username 
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)     from
+2023-04-29 00:37:39,933 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:37:39,934 INFO  [stdout] (default task-1)     where
+2023-04-29 00:37:39,934 INFO  [stdout] (default task-1)         c1_0.username=? 
+2023-04-29 00:37:39,934 INFO  [stdout] (default task-1)         and c1_0.zone=?
+2023-04-29 00:37:40,308 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:37:40,309 INFO  [stdout] (default task-1)     select
+2023-04-29 00:37:40,309 INFO  [stdout] (default task-1)         c1_0.email,
+2023-04-29 00:37:40,309 INFO  [stdout] (default task-1)         c1_0.zone,
+2023-04-29 00:37:40,309 INFO  [stdout] (default task-1)         c1_0.logged,
+2023-04-29 00:37:40,309 INFO  [stdout] (default task-1)         c1_0.password,
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)         c1_0.username 
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)     from
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)     where
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)         c1_0.username=? 
+2023-04-29 00:37:40,310 INFO  [stdout] (default task-1)         and c1_0.zone=?
+2023-04-29 00:39:33,839 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:39:33,874 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:39:33,891 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:39:33,893 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:39:33,893 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:39:33,894 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:39:33,894 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:39:33,894 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:39:33,972 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:39:33,979 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:39:34,025 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:39:34,025 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:39:34,087 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:39:34,108 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:39:34,121 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:39:34,121 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:39:34,122 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:39:34,122 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:39:34,122 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:39:34,122 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:39:34,168 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:39:34,173 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:39:34,201 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:39:34,201 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)     select
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         c1_0.email,
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         c1_0.zone,
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         c1_0.logged,
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         c1_0.password,
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         c1_0.username 
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)     from
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:39:34,243 INFO  [stdout] (default task-1)     where
+2023-04-29 00:39:34,244 INFO  [stdout] (default task-1)         c1_0.username=? 
+2023-04-29 00:39:34,244 INFO  [stdout] (default task-1)         and c1_0.zone=?
+2023-04-29 00:39:34,270 INFO  [stdout] (default task-1) Hibernate: 
+2023-04-29 00:39:34,270 INFO  [stdout] (default task-1)     select
+2023-04-29 00:39:34,270 INFO  [stdout] (default task-1)         c1_0.email,
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         c1_0.zone,
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         c1_0.logged,
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         c1_0.password,
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         c1_0.username 
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)     from
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         Couriers c1_0 
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)     where
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         c1_0.username=? 
+2023-04-29 00:39:34,271 INFO  [stdout] (default task-1)         and c1_0.zone=?
+2023-04-29 00:40:58,564 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:40:58,576 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:40:58,584 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:40:58,585 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:40:58,585 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:40:58,585 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:40:58,585 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:40:58,585 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:40:58,624 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:40:58,629 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:40:58,658 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:40:58,658 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:40:58,704 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:40:58,717 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:40:58,724 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:40:58,724 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:40:58,724 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:40:58,725 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:40:58,725 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:40:58,725 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:40:58,765 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:40:58,771 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:40:58,790 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:40:58,790 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:41:28,258 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:41:28,286 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:41:28,305 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:41:28,306 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:41:28,306 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:41:28,306 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:41:28,307 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:41:28,307 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:41:28,380 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:41:28,388 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:41:28,443 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:41:28,444 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:41:28,552 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: mysql]
+2023-04-29 00:41:28,583 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-04-29 00:41:28,604 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2023-04-29 00:41:28,604 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+2023-04-29 00:41:28,605 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/ecommCouriers]
+2023-04-29 00:41:28,605 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {password=****, user=root}
+2023-04-29 00:41:28,605 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2023-04-29 00:41:28,605 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001115: Connection pool size: 20 (min=1)
+2023-04-29 00:41:28,698 INFO  [SQL dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-29 00:41:28,708 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2023-04-29 00:41:28,766 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000038: Composite-id class does not override equals(): com.example.couriersvertical.Entities.Courier
+2023-04-29 00:41:28,767 WARN  [org.hibernate.mapping.RootClass] (default task-1) HHH000039: Composite-id class does not override hashCode(): com.example.couriersvertical.Entities.Courier
+2023-04-29 01:17:36,855 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = couriersVertical-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2023-04-29 01:17:36,911 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: '/couriersVertical-1.0-SNAPSHOT' from server 'default-server'
+2023-04-29 01:17:37,325 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'couriersVertical-1.0-SNAPSHOT#mysql'
+2023-04-29 01:17:37,363 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 78) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7dc0421a
+2023-04-29 01:17:37,405 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'couriersVertical-1.0-SNAPSHOT#mysql'
+2023-04-29 01:17:37,779 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment couriersVertical-1.0-SNAPSHOT (runtime-name: couriersVertical-1.0-SNAPSHOT.war) in 1009ms
+2023-04-29 01:17:38,324 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "couriersVertical-1.0-SNAPSHOT" (runtime-name: "couriersVertical-1.0-SNAPSHOT.war")
+2023-04-29 01:17:38,581 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2023-04-29 01:17:38,591 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-04-29 01:17:38,600 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2023-04-29 01:17:38,739 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0119: Unbinding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2023-04-29 01:17:38,745 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2023-04-29 01:17:38,748 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0011: Unbound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2023-04-29 01:17:38,760 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-04-29 01:17:38,793 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-04-29 01:17:38,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-04-29 01:17:38,800 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2023-04-29 01:17:38,801 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-04-29 01:17:38,821 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-04-29 01:17:38,872 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (ServerService Thread Pool -- 87) AMQ151003: resource adaptor stopped
+2023-04-29 01:17:39,122 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 87) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.21.0.redhat-00031 [7f67c084-e530-11ed-820e-00216be9a4c1] stopped, uptime 45 minutes
+2023-04-29 01:17:39,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-04-29 01:17:39,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-04-29 01:17:39,128 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.3.0.Alpha2-redhat-00001 stopping
+2023-04-29 01:17:39,164 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: JBoss EAP 8.0.0.Beta (WildFly Core 19.0.0.Beta16-redhat-00004) stopped in 420ms
