@@ -1,0 +1,570 @@
+{
+	"info": {
+		"_postman_id": "b9c1db8a-8374-41e1-9e42-1ebeb87c5835",
+		"name": "DSEcomm2.0 MicroServices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23094831",
+		"_collection_link": "https://galactic-meteor-378225.postman.co/workspace/My-Workspace~0e1b5986-2a84-452b-8902-e2b59edf944c/collection/23094831-b9c1db8a-8374-41e1-9e42-1ebeb87c5835?action=share&source=collection_link&creator=23094831"
+	},
+	"item": [
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@gmail.com\",\r\n    \"password\":\"admin\",\r\n    \"username\":\"admin\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{adminsBaseURL}}/register",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@gmail.com\",\r\n    \"password\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{adminsBaseURL}}/login",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/logout",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Couriers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/getAllUsers/couriers",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"getAllUsers",
+								"couriers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Sellers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/getAllUsers/sellers",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"getAllUsers",
+								"sellers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Customers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/getAllUsers/customers",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"getAllUsers",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Seller",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/generateSellerAccount/Cartier",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"generateSellerAccount",
+								"Cartier"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Courier",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{adminsBaseURL}}/generateCourierAccount/Nacex/1111",
+							"host": [
+								"{{adminsBaseURL}}"
+							],
+							"path": [
+								"generateCourierAccount",
+								"Nacex",
+								"1111"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Courier",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"user2684@roastMap.com\",\r\n    \"password\":\"gqER93yI\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{couriersBaseURL}}/login",
+							"host": [
+								"{{couriersBaseURL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{couriersBaseURL}}/logout",
+							"host": [
+								"{{couriersBaseURL}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Orders By Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{couriersBaseURL}}/getOrdersByStatus/inProgress",
+							"host": [
+								"{{couriersBaseURL}}"
+							],
+							"path": [
+								"getOrdersByStatus",
+								"inProgress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update status",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{couriersBaseURL}}/updateStatus/1628/shipped",
+							"host": [
+								"{{couriersBaseURL}}"
+							],
+							"path": [
+								"updateStatus",
+								"1628",
+								"shipped"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seller",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"user5020@roastMap.com\",\r\n    \"password\":\"J03RIIlU\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{sellersBaseURL}}/login",
+							"host": [
+								"{{sellersBaseURL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{sellersBaseURL}}/logout",
+							"host": [
+								"{{sellersBaseURL}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Sold",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{sellersBaseURL}}/getAllSold",
+							"host": [
+								"{{sellersBaseURL}}"
+							],
+							"path": [
+								"getAllSold"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "On Sale",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{sellersBaseURL}}/viewOnSale",
+							"host": [
+								"{{sellersBaseURL}}"
+							],
+							"path": [
+								"viewOnSale"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"StainlessWB\",\r\n    \"price\":\"900\",\r\n    \"description\":\"WB\",\r\n    \"sellerName\":\"Sistema\",\r\n    \"fileName\":\"StainlessWB.txt\",\r\n    \"quantity\":\"12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{sellersBaseURL}}/addProduct",
+							"host": [
+								"{{sellersBaseURL}}"
+							],
+							"path": [
+								"addProduct"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Beverly Hills\",\r\n    \"email\": \"Nemo@gmail.com\",\r\n    \"password\": \"789\",\r\n    \"username\": \"Nadine\",\r\n    \"zone\": \"Sheikh_Zayed\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{customersBaseURL}}/register",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"Nemo@gmail.com\",\r\n    \"password\": \"789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{customersBaseURL}}/login",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{customersBaseURL}}/logout",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{customersBaseURL}}/getAllProducts",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"getAllProducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Place Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"productId\":\"3295\",\r\n        \"sellerName\":\"Apple\"\r\n    },\r\n    {\r\n        \"productId\":\"8302\",\r\n        \"sellerName\":\"Apple\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{customersBaseURL}}/placeOrder",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"placeOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Place Order Out Of Stock",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"productId\":\"4646\",\r\n        \"sellerName\":\"Apple\"\r\n    },\r\n    {\r\n        \"productId\":\"3826\",\r\n        \"sellerName\":\"IYS\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{customersBaseURL}}/placeOrder",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"placeOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Orders By Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{customersBaseURL}}/getOrdersByStatus/shipped",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"getOrdersByStatus",
+								"shipped"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Username",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{customersBaseURL}}/getUsername",
+							"host": [
+								"{{customersBaseURL}}"
+							],
+							"path": [
+								"getUsername"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "Get notifications",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{notificationBaseURL}}/Mado/getNotifications",
+							"host": [
+								"{{notificationBaseURL}}"
+							],
+							"path": [
+								"Mado",
+								"getNotifications"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
